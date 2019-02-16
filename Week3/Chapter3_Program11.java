@@ -2,7 +2,7 @@
 Program Name: Chapter3_Program11.java
 Programmer: Stenmark, Ryan
 Course: CSC119-141 Introduction to Programming Java Spring 2019
-Submission Date:
+Submission Date: 2/15/19
 Description: Determine the amount of packages of hot dogs and hot dog buns
     required for a cookout with the minimum number of leftovers
 */

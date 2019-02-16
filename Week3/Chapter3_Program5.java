@@ -2,7 +2,7 @@
 Program Name: Chapter3_Program5.java
 Programmer: Stenmark, Ryan
 Course: CSC119-141 Introduction to Programming Java Spring 2019
-Submission Date:
+Submission Date: 2/15/19
 Description: Determine the assessment value and property tax amount for a given
     actual value of a piece of property.
 */

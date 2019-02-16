@@ -2,7 +2,7 @@
 Program Name: Chapter3_Program9.java
 Programmer: Stenmark, Ryan
 Course: CSC119-141 Introduction to Programming Java Spring 2019
-Submission Date:
+Submission Date: 2/15/19
 Description: Determine several important factors relating to the material
     and financial cost of a paint job.
 */

@@ -2,7 +2,7 @@
 Program Name: Chapter3_Program10.java
 Programmer: Stenmark, Ryan
 Course: CSC119-141 Introduction to Programming Java Spring 2019
-Submission Date:
+Submission Date: 2/15/19
 Description: Determine the amount of county and state sales tax to be paid
     for a user given amount of income for a retail company.
 */
