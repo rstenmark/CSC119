@@ -2,7 +2,7 @@
 Program Name: Chapter4_Program7.java
 Programmer: Stenmark, Ryan
 Course: CSC119-141 Introduction to Programming Java Spring 2019
-Submission Date:
+Submission Date: 2/25/2019
 Description: Determine the discount amount and purchase amount after discount
     based on a user provided number of software packages purchased.
 */
@@ -35,7 +35,7 @@ class Chapter4_Program7 {
         int packagesPurchased = scanIn.nextInt();
         double discountPercent = getDiscountPercent(packagesPurchased);
 
-        System.out.printf("For purchasing %d packages, you are eligible for a %.0f%% discount.%nYour final price is $%.2f.\n", 
+        System.out.printf("For purchasing %d packages, you are eligible for a %.0f%% discount.%nYour final price is $%.2f.\n",
         packagesPurchased, discountPercent*100, (double)packagesPurchased*packageCost*discountPercent);
 
         // Close Scanner

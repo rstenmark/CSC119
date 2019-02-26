@@ -2,7 +2,7 @@
 Program Name: Chapter4_Program8.java
 Programmer: Stenmark, Ryan
 Course: CSC119-141 Introduction to Programming Java Spring 2019
-Submission Date:
+Submission Date: 2/25/2019
 Description: Get the user to input a number of pennies, nickels, dimes, and quarters.
     If the total value of the coins is equal to 1 dollar, congratulate the user,
     otherwise, display whether the amount was greater than or less than 1 dollar.
@@ -17,6 +17,7 @@ class Chapter4_Program8 {
     static final double valueQuarter = 0.25;
 
 
+    // Determine the monetary sum of the types and amounts of change provided
     static double getSumOfChange(int pennies, int nickels, int dimes, int quarters) {
         return pennies*valuePenny + nickels*valueNickel + dimes*valueDime + quarters*valueQuarter;
     }
@@ -25,6 +26,7 @@ class Chapter4_Program8 {
         // Instantiate Scanner object
         Scanner scanIn = new Scanner(System.in);
 
+        // Get input from user
         System.out.print("How many pennies?: ");
         int numPennies = scanIn.nextInt();
         System.out.print("How many nickels?: ");
@@ -34,6 +36,7 @@ class Chapter4_Program8 {
         System.out.print("How many quarters?: ");
         int numQuarters = scanIn.nextInt();
 
+        // If the user inputs a negative number of a type of coin, then complain and quit
         if(numPennies < 0 | numNickels < 0 | numDimes < 0 | numQuarters < 0) {
             System.out.println("You cannot have less than 0 of something!");
             System.exit(1);
