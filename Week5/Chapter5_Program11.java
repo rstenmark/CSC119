@@ -19,7 +19,7 @@ class Chapter5_Program11 {
 
         // Analogous to assigning smallest = Integer.MAX_VALUE in Program 10.
         firstName = "z";
-        // Analogous to assigning largest = Integer.MIN     _VALUE in Program 10.
+        // Analogous to assigning largest = Integer.MIN_VALUE in Program 10.
         lastName = "a";
 
         while(true) {
